@@ -1,0 +1,72 @@
+h1 {color: #2C3539
+}
+h1 {font-family: 'VT323', monospace; font-size: 30px}
+
+html {
+  background: url(https://preview.redd.it/e2wctkworjl01.gif?width=792&s=6cd10001909bc54a7170d7c0527018bb82f583dd)
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: transparent;
+  padding: 30px;
+  text-align: left;
+  font-size: 35px;
+  color: black;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  height: 300px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: transparent
+  ;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }

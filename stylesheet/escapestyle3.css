@@ -1,0 +1,41 @@
+h1 {color: #2C3539
+}
+
+h2 {color: #2C3539
+}
+
+h2 {font-family: 'VT323', monospace; font-size: 30px}
+
+h1 {font-family: 'Cedarville Cursive', cursive; font-size: 30px}
+
+
+h1 {text-align: center; }
+
+h2 {text-align: center; }
+
+img {
+  max-width: 25%
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+html {
+  background: url(https://media1.tenor.com/images/2d157d4167caea0da98e22d61d320c1b/tenor.gif?itemid=13359593)
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: url('../Images/send.svg'),
+  pointer;
+
+}
